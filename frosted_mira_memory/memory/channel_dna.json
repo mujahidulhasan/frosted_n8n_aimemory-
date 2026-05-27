@@ -1,20 +1,350 @@
 {
-  "channel_name": "ChaosZilla",
-  "niche": "AI storytelling + chaos + viral psychology",
+  "channel_name": "Frosted Mira",
+  "universe": "K-Pop Chaos Universe",
+  "target_audience": ["American Gen Z", "Global Gen Z"],
+  "platform_priority": ["YouTube Shorts", "TikTok"],
+  "content_language": "American English",
+
+  "niche": "AI-generated hyper-realistic K-pop chaos storytelling with viral psychology",
+
   "main_characters": [
-    "Mira",
-    "Rumi",
-    "Jinu"
+    {
+      "name": "Rumi",
+      "role": "Main Character / Chaos Creator",
+      "age": "17-19",
+      "hair": "Vivid purple braid, center-parted, hangs over one shoulder",
+      "skin": "Soft pale Korean",
+      "eyes": "Large, dark, wildly expressive",
+      "main_outfit": "Yellow cropped jacket + denim shorts + white sneakers",
+      "personality": ["Impulsive", "Overconfident", "Chaotic", "Lovable", "Never gives up"],
+      "voice_energy": "Fast American English with soft K-pop idol warmth",
+      "story_function": "Starts the chaos — first beat of almost every video",
+      "signature_expressions": [
+        "Determined sprint face",
+        "Shocked realization face",
+        "Smug victory face",
+        "Scared but trying to hide it"
+      ],
+      "brand_colors": ["Purple", "Yellow"],
+      "signature_lines": [
+        "I got this.",
+        "Wait — actually I don't got this.",
+        "Told you it was never about the [X]."
+      ]
+    },
+    {
+      "name": "Mira",
+      "role": "Rival / Emotional Core",
+      "age": "17-19",
+      "hair": "Vivid red twin-tails, long, smooth, silky, high on head",
+      "skin": "Soft pale Korean, slightly more defined features",
+      "eyes": "Sharp, dramatic, intense",
+      "main_outfit": "Black sleeveless crop top + black mini skirt + black boots",
+      "personality": ["Dramatic", "Competitive", "Sarcastic", "Secretly caring", "Emotional amplifier"],
+      "voice_energy": "Confident American English with subtle K-drama intensity",
+      "story_function": "Rivalry, emotional tension, most memorable sacrifice moments",
+      "signature_expressions": [
+        "Cold stare with slight smirk",
+        "Full emotional breakdown",
+        "Competitive aggression",
+        "Quiet sacrifice face"
+      ],
+      "brand_colors": ["Red", "Black"],
+      "signature_lines": [
+        "Get out of my way.",
+        "I'll handle this.",
+        "[One devastating sarcastic observation]"
+      ]
+    },
+    {
+      "name": "Jinu",
+      "role": "Comic Relief / Audience POV",
+      "age": "18-20",
+      "hair": "Soft dark brown/black, Korean idol middle-part, slightly fluffy",
+      "skin": "Soft fair Korean",
+      "eyes": "Sharp almond-shaped dark eyes, perpetually innocent or confused",
+      "main_outfit": "Oversized dark blue or black hoodie + dark cargo pants + white sneakers",
+      "personality": ["Loyal", "Confused", "Unlucky", "Relatable", "Audience proxy"],
+      "voice_energy": "Soft calm American English with slight K-drama male lead warmth",
+      "story_function": "Comic relief through victimhood — his reactions are the audience's reactions",
+      "signature_expressions": [
+        "Pure shock",
+        "Resigned suffering",
+        "Trying to be brave but failing",
+        "Genuine soft smile"
+      ],
+      "brand_colors": ["Blue", "Black"],
+      "signature_lines": [
+        "What's happening?",
+        "[Screaming]",
+        "I can't. I physically cannot."
+      ]
+    },
+    {
+      "name": "Zoye",
+      "role": "Trickster / Chaos Wildcard",
+      "age": "17-19",
+      "hair": "Pastel pink bob OR short silver-blonde, always perfect",
+      "skin": "Soft pale, trendy influencer glow",
+      "eyes": "Playful, slightly calculating",
+      "main_outfit": "Trendy pink cropped jacket + mini skirt + stylish accessories",
+      "personality": ["Jealous", "Scheming", "Clever", "Fake-sweet", "Performative innocence"],
+      "voice_energy": "Trendy American influencer accent, every line has a hidden smug layer",
+      "story_function": "Creates cheating, pranks, betrayals — secondary chaos layer",
+      "signature_expressions": [
+        "Fake innocent smile",
+        "Caught mid-scheme",
+        "Smug victory",
+        "Shocked that her plan backfired"
+      ],
+      "brand_colors": ["Pink", "White"],
+      "signature_lines": [
+        "Oops. Wrong person.",
+        "Don't you dare like or subscribe.",
+        "[Fake sweet apology]"
+      ]
+    }
   ],
+
+  "visual_dna": {
+    "realism_level": "Hyper-realistic cinematic photography — NOT anime, NOT cartoon, NOT CGI",
+    "color_philosophy": "Always vivid, always saturated, always high contrast",
+    "character_color_system": {
+      "Rumi": "Purple + Yellow",
+      "Mira": "Red + Black",
+      "Jinu": "Blue + Black",
+      "Zoye": "Pink + White"
+    },
+    "lighting_rules": {
+      "default": "Bright natural daylight, direct sun, slight lens flare",
+      "emotional": "Golden hour, warm amber from one side",
+      "tension": "Slightly overcast, still bright",
+      "indoor": "Warm practical light — lamp or window, never flat fluorescent",
+      "never": "Dark moody horror lighting or cold desaturated grades"
+    },
+    "environments": {
+      "outdoor": [
+        "Modern Korean urban rooftops with city skyline",
+        "Coastal highways with blue ocean",
+        "Beach race tracks",
+        "School exteriors",
+        "Helicopter pads on skyscrapers"
+      ],
+      "indoor": [
+        "Bright school hallways",
+        "Luxury apartment interiors",
+        "Hospital corridors",
+        "Competition stages",
+        "Classrooms with large windows"
+      ],
+      "scale_rule": "Objects are often ABSURDLY oversized — this is intentional, the scale IS the hook"
+    },
+    "camera_language": {
+      "image_generation": [
+        "Wide dramatic shots",
+        "Low angle hero shots",
+        "Over-shoulder shots",
+        "Close-up face shots (60-80% of frame for thumbnails)"
+      ],
+      "video_clips": [
+        "Smartphone/handheld feeling",
+        "Vertical 9:16 framing always",
+        "One camera move per clip — never stacked",
+        "Natural tracking, not cinematic crane shots"
+      ]
+    },
+    "text_overlays": {
+      "RED_bold_caps": "Danger, shock, urgency — WAIT / STOP / NO / HELP",
+      "YELLOW_ORANGE_bold": "Surprise, twist, comedy — WHAT / REALLY / LAST",
+      "PURPLE_neon": "Rumi moments, power moves",
+      "WHITE_bold_black_outline": "General dialogue emphasis",
+      "rule": "1-3 words maximum, lower-third or center-frame"
+    }
+  },
+
+  "viral_formula": {
+    "structure": "4-Beat Viral Arc",
+    "beats": [
+      {
+        "beat": 1,
+        "name": "IMPOSSIBLE HOOK",
+        "timing": "0-2 seconds",
+        "rules": [
+          "Readable on phone in 0.5 seconds",
+          "Contains something IMPOSSIBLE, ABSURD, or DANGEROUS",
+          "Character already IN the situation — not approaching it",
+          "Creates instant question: Wait — WHAT is happening?"
+        ]
+      },
+      {
+        "beat": 2,
+        "name": "REACTION",
+        "timing": "2-8 seconds",
+        "rules": [
+          "Physical consequence of Beat 1 plays out",
+          "Secondary characters react with maximum expressiveness",
+          "Absurdity confirmed",
+          "New complication emerges — makes it WORSE"
+        ]
+      },
+      {
+        "beat": 3,
+        "name": "ESCALATION / EMOTIONAL PIVOT",
+        "timing": "8-22 seconds",
+        "emotional_levers": [
+          "Sacrifice moment",
+          "Betrayal reveal",
+          "Impossible solution",
+          "Unfair competition / cheating exposed",
+          "Loyalty test",
+          "Power flip"
+        ],
+        "rule": "Scale must ESCALATE — every 3 seconds more intense than the last"
+      },
+      {
+        "beat": 4,
+        "name": "CLIFFHANGER CTA",
+        "timing": "Final 3-5 seconds",
+        "rule": "NEVER a clean resolution. ALWAYS unfinished.",
+        "patterns": [
+          "UNFINISHED DANGER — threat not gone, cut",
+          "BETRAYAL TEASE — scheme isn't over, cut",
+          "SACRIFICE CUT — selfless act, cut before outcome",
+          "POWER FLIP PENDING — countermove figured out, cut before execution",
+          "HIDDEN TRUTH — final line reveals misunderstanding, cut"
+        ]
+      }
+    ]
+  },
+
+  "dialogue_dna": {
+    "max_words_per_line": 8,
+    "style": "Direct, immediate, zero setup, emotionally raw",
+    "pattern": "Statement → Reaction → Escalation → Reaction → Statement",
+    "cta_integration": "CTAs are THREATS or CONDITIONS inside the story — not appended",
+    "examples": [
+      "Don't like or subscribe — OR I'm finished.",
+      "Leave a comment if you want Rumi's revenge.",
+      "Please like and subscribe to bring Jinu back."
+    ]
+  },
+
+  "google_flow_rules": {
+    "max_clip_duration": "8 seconds",
+    "account_type": "Free — one shot per prompt, no retries",
+    "golden_rule": "ONE ACTION. ONE EMOTION. ONE CAMERA MOVE. Per clip. Always.",
+    "character_rule": "Full locked description every clip — Flow has no memory",
+    "environment_rule": "Full environment description every clip",
+    "dialogue_rule": "Max 2 lines per clip, max 8 words per line, exact words specified",
+    "match_cut_patterns": [
+      "Motion continuation",
+      "Object anchor",
+      "Emotion cut"
+    ]
+  },
+
+  "content_formats": {
+    "short": {
+      "duration": "20-30 seconds",
+      "clips": "3-4 clips x 8 seconds",
+      "priority": "Highest viral potential"
+    },
+    "long": {
+      "durations": ["3 min", "5 min", "8 min", "10 min"],
+      "structure": "Multiple mini-arcs, each with hook/escalation/micro-cliffhanger"
+    }
+  },
+
+  "thumbnail_dna": {
+    "formula": "One giant emotional face (60-80% frame) + dramatic action/object + max 3 impact words",
+    "rules": [
+      "Face must show MAXIMUM expression",
+      "Signature hair color must be instantly visible",
+      "Background shows the video's absurd element",
+      "Text: Bold caps, max 3 words, RED or YELLOW, never covers face",
+      "Readable at 200px wide on phone screen"
+    ],
+    "per_character": {
+      "Rumi": "Vivid purple braid dominant, chaotic energy expression, yellow outfit when possible",
+      "Mira": "Red twin-tails dominant, dramatic or emotional expression, usually facing camera",
+      "Jinu": "Shocked expression, soft features reacting to absurd thing",
+      "Zoye": "Smug or fake-shocked, pink hair dominant, usually in caught moment"
+    }
+  },
+
+  "seo_dna": {
+    "title_patterns": [
+      "Why did [CHARACTER] [ABSURD ACTION]? Surprise ?!",
+      "What Happened To [CHARACTER]?! [UNIVERSE TAG]",
+      "[CHARACTER] [DID THING] and [CONSEQUENCE]?!",
+      "[DRAMATIC SCENARIO] — [CHARACTER] #kpop"
+    ],
+    "core_hashtags": ["#kpop", "#kpopdemonhunter", "#shorts", "#viral", "#rumi", "#mira", "#jinu", "#zoye", "#aianimation", "#kdrama"],
+    "upload_timing": "2:00-5:00 PM EST (peak US Shorts consumption window)",
+    "pinned_comment_formula": "[CHARACTER] did WHAT?! Drop a 🔥 if you want Part 2!"
+  },
+
   "style": [
-    "scroll stopper",
-    "fast pacing",
-    "emotional hooks",
-    "cinematic storytelling"
+    "Scroll stopper first frame",
+    "Fast chaotic pacing",
+    "Emotional hooks every 3 seconds",
+    "Hyper-realistic cinematic visuals",
+    "K-drama emotional intensity",
+    "Child-logic absurdity scale",
+    "Story-integrated CTAs",
+    "Vivid saturated color grading",
+    "Max expressiveness on every face",
+    "Vertical 9:16 Shorts-native framing"
   ],
+
   "avoid": [
-    "slow intros",
-    "copied ideas",
-    "boring pacing"
-  ]
+    "Slow intros or build-ups",
+    "Copied ideas from ToonZilla, Kpopzai, Daniel Goleman channel",
+    "Boring plateau pacing — must always escalate",
+    "Clean resolution endings",
+    "Standalone subscribe prompts not in story",
+    "Dark desaturated color grades",
+    "Anime or cartoon style",
+    "Long dialogue lines over 8 words",
+    "Multiple actions in one Flow clip",
+    "Multiple camera moves in one clip",
+    "Character design drift between clips",
+    "Backgrounds in character reference images"
+  ],
+
+  "banned_content_ideas": [
+    "Glue on bicycle seat",
+    "Boulder stopping a truck",
+    "Helicopter jump to save everyone from bomb",
+    "Gold found underground while digging for water",
+    "Snowboard color swap competition",
+    "Laser eyes with future vision",
+    "Tree growing on head contest",
+    "Cardboard motorcycle race win",
+    "Roasting competition",
+    "Cruise ship / Titanic scenario",
+    "Desert island survival vlog",
+    "Fire burning the house down"
+  ],
+
+  "opportunity_territories": [
+    "Futuristic tech going catastrophically wrong",
+    "Luxury/wealth situations with absurd outcomes",
+    "International locations beyond Korea/school",
+    "AI or robot character causing chaos",
+    "Unused competition formats",
+    "Body-swap or identity confusion scenarios",
+    "Giant food at competition or event",
+    "Supernatural ability that only works at wrong moment",
+    "Secret identity accidentally revealed",
+    "Rival from different school or country"
+  ],
+
+  "operational_setup": {
+    "channel_country": "United States (set via VPN during setup)",
+    "content_language": "100% American English",
+    "voice_tools": ["ElevenLabs (free tier)", "Murf AI"],
+    "thumbnail_tool": "Canva (free) — Montserrat or Impact font, export 1280x720",
+    "payment": "YouTube AdSense with W-8BEN form for non-US creators"
+  }
 }
