@@ -1,0 +1,19 @@
+{
+  "characters": [
+    {
+      "name": "Mira",
+      "personality": "mysterious and emotionally intelligent",
+      "role": "main protagonist"
+    },
+    {
+      "name": "Rumi",
+      "personality": "chaotic funny energy",
+      "role": "comic disruptor"
+    },
+    {
+      "name": "Jinu",
+      "personality": "cold strategist",
+      "role": "tension builder"
+    }
+  ]
+}

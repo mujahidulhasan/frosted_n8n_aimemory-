@@ -1,0 +1,14 @@
+{
+  "patterns": [
+    {
+      "hook": "instant danger",
+      "emotion": "fear + curiosity",
+      "retention": "unfinished reveal"
+    },
+    {
+      "hook": "sudden twist",
+      "emotion": "shock",
+      "retention": "cliffhanger"
+    }
+  ]
+}
