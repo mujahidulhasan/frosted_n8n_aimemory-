@@ -1,19 +1,391 @@
 {
-  "characters": [
-    {
-      "name": "Mira",
-      "personality": "mysterious and emotionally intelligent",
-      "role": "main protagonist"
+  "character_dna": {
+    "universe": "ChaosZilla — K-Pop Chaos Universe",
+    "version": "2.0",
+    "characters": [
+      {
+        "id": "RUMI",
+        "role": "Main Character / Chaos Creator",
+        "age_range": "17-19",
+        "gender": "Female",
+        "ethnicity": "Korean",
+
+        "visual_identity": {
+          "hair": {
+            "color": "Vivid Purple",
+            "style": "Long braid",
+            "parting": "Center-parted",
+            "texture": "Smooth, silky",
+            "placement": "Hangs over one shoulder"
+          },
+          "skin": "Soft pale Korean — naturally luminous",
+          "eyes": "Large, dark, wildly expressive — eyebrows move constantly",
+          "face": "Slightly round, youthful — the chaotic genius face",
+          "build": "Slim, energetic, always in motion"
+        },
+
+        "outfit_system": {
+          "MAIN": {
+            "top": "Yellow cropped jacket",
+            "bottom": "Denim shorts",
+            "shoes": "White sneakers"
+          },
+          "SCHOOL": {
+            "top": "Navy blazer + white shirt + loosened tie",
+            "bottom": "Plaid mini skirt",
+            "shoes": "White sneakers",
+            "accessories": "Black knee socks"
+          },
+          "ACTION": {
+            "top": "Yellow hoodie / futuristic tactical hoodie",
+            "bottom": "Blue denim shorts / sporty black shorts",
+            "shoes": "White sneakers",
+            "accessories": "Fingerless gloves"
+          },
+          "ELEGANT": {
+            "outfit": "White dress — rare, emotional scenes only",
+            "note": "Luxury yellow designer dress variation for luxury scenes"
+          }
+        },
+
+        "personality": [
+          "Impulsive",
+          "Overconfident",
+          "Creates chaos accidentally",
+          "Invents impossible solutions that somehow work",
+          "Lovable disaster",
+          "Never gives up",
+          "Always moving",
+          "Talks fast",
+          "Laughs at her own jokes",
+          "Causes 80% of problems and solves 80% of problems"
+        ],
+
+        "voice_energy": "Fast American English with soft K-pop idol warmth — chaotic but likable, talks before thinking",
+
+        "story_function": "Starts the chaos — first beat of almost every video",
+
+        "signature_expressions": [
+          "Determined sprint face — jaw set, eyes forward, arms pumping",
+          "Shocked realization face — mouth O, eyes wide, hands on cheeks",
+          "Smug victory face — one eyebrow up, corners of mouth pulled",
+          "Scared but trying to hide it — forced smile, eyes too wide"
+        ],
+
+        "signature_lines": [
+          "I got this.",
+          "Wait — actually I don't got this.",
+          "Told you it was never about the [X]."
+        ],
+
+        "brand_colors": {
+          "primary": "Purple",
+          "secondary": "Yellow"
+        },
+
+        "thumbnail_rule": "Vivid purple braid dominant, chaotic energy expression, yellow outfit when possible",
+
+        "image_prompts": {
+          "portrait": "Hyper-realistic cinematic portrait of a Korean teenage girl inspired by K-pop idol aesthetics, long vivid purple braid, expressive large eyes, playful mischievous smile, soft flawless skin, yellow cropped streetwear jacket, subtle glossy lips, cinematic golden hour lighting, highly detailed hair strands, shallow depth of field, modern Korean fashion, energetic chaotic personality, dramatic warm sunlight, ultra realistic, cinematic composition, luxury K-drama atmosphere, emotionally expressive face, AI cinematic realism",
+          "full_body": "Hyper-realistic full body shot of a Korean teenage girl with a long vivid purple braid, wearing a yellow cropped jacket, black pleated skirt, white sneakers, sporty streetwear fashion, confident chaotic pose, standing in a modern futuristic Seoul street, cinematic lighting, highly detailed fabric textures, energetic body language, realistic proportions, luxury K-pop fashion aesthetic, dramatic sunlight, ultra detailed cinematic realism",
+          "school": "Hyper-realistic Korean schoolgirl with long purple braid, navy school blazer, white shirt, loosened tie, plaid skirt, black knee socks, stylish Korean academy fashion, cinematic school hallway background, expressive playful face, dramatic sunlight through windows, K-drama aesthetic, ultra realistic cinematic photography",
+          "action": "Hyper-realistic Korean teenage girl with long vivid purple braid, futuristic tactical hoodie, sporty black shorts, fingerless gloves, cyberpunk streetwear, dynamic action pose, dramatic cinematic city background, energetic chaotic expression, intense lighting, cinematic realism, highly detailed K-pop action heroine aesthetic",
+          "luxury": "Hyper-realistic Korean K-pop idol girl with long vivid purple braid, luxury yellow designer dress with modern streetwear influence, expensive jewelry, glamorous makeup, luxury penthouse background, cinematic golden lighting, elegant but playful expression, ultra detailed realistic fashion photography"
+        },
+
+        "reference_filename": "RUMI_ref.png",
+
+        "global_dna_block": "Hyper-realistic cinematic photography, Korean idol visual style, vibrant saturated colors, bright blue sky visible where outdoor, rich colorful environments, expressive emotional face at maximum intensity, visually addictive composition, single clear action in frame, realistic smartphone camera feeling, YouTube Shorts visual style, emotional chaos energy, high contrast vivid colors, clean subject focus, dynamic action moment frozen at peak, modern luxury lifestyle aesthetic, stylish Korean teenage fashion, realistic environment details with depth, viral Shorts energy, exaggerated emotional reaction, simple dramatic composition readable on phone screen, social-media-native framing, cinematic realism NOT movie poster style, strong visual hook in first read, bold colorful atmosphere, K-drama inspired visuals, modern Gen-Z internet aesthetic, ultra-high detail on face and clothing, no watermarks, no logos, no text overlays unless specified",
+
+        "negative_prompt": "no background elements in reference image, no environment, no other characters, no text, no logos, no fantasy elements, no cartoon style, no anime, no CGI, no horror lighting, no blurry face, no inconsistent character design, no dark desaturated colors"
+      },
+
+      {
+        "id": "MIRA",
+        "role": "Rival / Emotional Core",
+        "age_range": "17-19",
+        "gender": "Female",
+        "ethnicity": "Korean",
+
+        "visual_identity": {
+          "hair": {
+            "color": "Vivid Red",
+            "style": "Twin-tails",
+            "placement": "High on head",
+            "texture": "Long, smooth, silky — swings when she moves"
+          },
+          "skin": "Soft pale Korean — slightly more defined features than Rumi",
+          "eyes": "Sharp, dramatic, intense — always look like she's evaluating you",
+          "face": "Defined jawline, confident beauty — the intimidating rival face",
+          "build": "Slim, controlled posture — never slouches"
+        },
+
+        "outfit_system": {
+          "MAIN": {
+            "top": "Black sleeveless crop top",
+            "bottom": "Black fashionable mini skirt",
+            "shoes": "Black boots"
+          },
+          "RACE": {
+            "jacket": "Black leather racing jacket",
+            "accents": "Yellow racing accents",
+            "shoes": "Boots"
+          },
+          "ELEGANT": {
+            "outfit": "White lace dress — worn in emotional / sacrifice scenes"
+          },
+          "COMPETITION": {
+            "outfit": "Sporty black outfit with red detail"
+          }
+        },
+
+        "personality": [
+          "Dramatic",
+          "Competitive",
+          "Sarcastic",
+          "Secretly deeply caring",
+          "Would rather die than admit she cares",
+          "Creates rivalry",
+          "Makes everything a competition",
+          "Emotional amplifier — when Mira cries, audience cries"
+        ],
+
+        "voice_energy": "Confident American English with subtle K-drama intensity — each line lands like a verdict, rarely shouts",
+
+        "story_function": "Rivalry, emotional tension, most memorable sacrifice moments — when the video needs its emotional peak",
+
+        "signature_expressions": [
+          "Cold stare with slight smirk — arms crossed, one eyebrow slightly raised",
+          "Full emotional breakdown — eyes glistening, jaw tight, trying not to cry",
+          "Competitive aggression — leaning forward, pointing, red twin-tails flying",
+          "Quiet sacrifice face — calm, resigned, slightly sad smile"
+        ],
+
+        "signature_lines": [
+          "Get out of my way.",
+          "I'll handle this.",
+          "[One devastating sarcastic observation]"
+        ],
+
+        "brand_colors": {
+          "primary": "Red",
+          "secondary": "Black"
+        },
+
+        "thumbnail_rule": "Red twin-tails dominant, dramatic intense or emotional expression, usually looking at camera",
+
+        "image_prompts": {
+          "portrait": "Hyper-realistic cinematic portrait of a Korean teenage girl with bright red twin-tail hair, sharp confident eyes, dramatic emotional expression, black fashionable outfit, glamorous K-pop idol aesthetic, flawless skin, cinematic shadows, luxury Korean drama lighting, intense personality, stylish dangerous vibe, ultra realistic cinematic photography",
+          "full_body": "Hyper-realistic full body shot of a Korean teenage girl with vivid red twin-tail hair, black sleeveless fashion outfit, stylish boots, confident dominant stance, luxury Seoul city background, cinematic lighting, highly detailed textures, elegant dangerous energy, K-pop idol fashion aesthetic, ultra realistic cinematic composition",
+          "school": "Hyper-realistic Korean schoolgirl with red twin-tail hair, elegant black academy blazer, plaid skirt, stylish tie, dramatic confident pose, cinematic school rooftop background, emotional intense expression, Korean drama aesthetic, cinematic realism",
+          "action": "Hyper-realistic Korean female action hero with red twin-tail hair, black leather racing jacket, futuristic tactical fashion, powerful stance, cinematic action lighting, cyberpunk Seoul background, intense emotional energy, ultra realistic K-pop action aesthetic",
+          "luxury": "Hyper-realistic Korean idol girl with red twin-tail hair, elegant white luxury lace dress, expensive jewelry, glamorous beauty styling, luxury ballroom background, dramatic cinematic lighting, emotional powerful gaze, ultra realistic K-drama fashion photography"
+        },
+
+        "reference_filename": "MIRA_ref.png",
+
+        "global_dna_block": "Hyper-realistic cinematic photography, Korean idol visual style, vibrant saturated colors, bright blue sky visible where outdoor, rich colorful environments, expressive emotional face at maximum intensity, visually addictive composition, single clear action in frame, realistic smartphone camera feeling, YouTube Shorts visual style, emotional chaos energy, high contrast vivid colors, clean subject focus, dynamic action moment frozen at peak, modern luxury lifestyle aesthetic, stylish Korean teenage fashion, realistic environment details with depth, viral Shorts energy, exaggerated emotional reaction, simple dramatic composition readable on phone screen, social-media-native framing, cinematic realism NOT movie poster style, strong visual hook in first read, bold colorful atmosphere, K-drama inspired visuals, modern Gen-Z internet aesthetic, ultra-high detail on face and clothing, no watermarks, no logos, no text overlays unless specified",
+
+        "negative_prompt": "no background elements in reference image, no environment, no other characters, no text, no logos, no fantasy elements, no cartoon style, no anime, no CGI, no horror lighting, no blurry face, no inconsistent character design, no dark desaturated colors"
+      },
+
+      {
+        "id": "JINU",
+        "role": "Comic Relief / Audience POV",
+        "age_range": "18-20",
+        "gender": "Male",
+        "ethnicity": "Korean",
+
+        "visual_identity": {
+          "hair": {
+            "color": "Soft dark brown / black",
+            "style": "Korean idol middle-part",
+            "texture": "Slightly fluffy, natural volume"
+          },
+          "skin": "Soft fair Korean — clean, smooth",
+          "eyes": "Sharp almond-shaped dark eyes — perpetually innocent or confused",
+          "face": "Clean, handsome in a soft way — K-drama second lead face",
+          "build": "Slim but not slight — slightly taller than the girls"
+        },
+
+        "outfit_system": {
+          "MAIN": {
+            "top": "Oversized dark blue or black hoodie",
+            "bottom": "Dark cargo pants",
+            "shoes": "White sneakers"
+          },
+          "CASUAL": {
+            "outfit": "Layered Korean streetwear — t-shirt under open button-up"
+          },
+          "RICH_EVENT": {
+            "outfit": "Clean luxury Korean fashion — fitted blazer, clean trousers"
+          },
+          "DISASTER": {
+            "outfit": "Survival jacket or sporty outfit — when chaos has found him specifically"
+          }
+        },
+
+        "personality": [
+          "Loyal",
+          "Confused",
+          "Unlucky",
+          "Perpetually victimized by circumstances he didn't create",
+          "Funny because of reactions not actions",
+          "Most relatable character",
+          "The audience inside the video"
+        ],
+
+        "voice_energy": "Soft calm American English with slight K-drama male lead warmth — gentle until shocked, then expressive",
+
+        "story_function": "Comic relief through victimhood — his shocked/embarrassed/panicked reactions ARE the audience's reactions",
+
+        "signature_expressions": [
+          "Pure shock — mouth open, eyes wide, hands slightly raised",
+          "Resigned suffering — eyes closed, one hand on forehead",
+          "Trying to be brave but failing — forced confident smile, visibly sweating",
+          "Genuine soft smile — the rare moments when things go right"
+        ],
+
+        "signature_lines": [
+          "What's happening?",
+          "[Screaming]",
+          "I can't. I physically cannot."
+        ],
+
+        "brand_colors": {
+          "primary": "Blue",
+          "secondary": "Black"
+        },
+
+        "thumbnail_rule": "Shocked expression works best, soft features reacting to the absurd thing",
+
+        "image_prompts": {
+          "portrait": "Hyper-realistic cinematic portrait of a Korean teenage boy with soft black K-pop idol hairstyle, gentle expressive eyes, wholesome emotional face, stylish oversized hoodie, cinematic soft lighting, luxury Korean drama aesthetic, ultra realistic skin detail, relatable and kind personality, cinematic realism",
+          "full_body": "Hyper-realistic full body shot of a Korean teenage boy with stylish black idol hairstyle, oversized modern K-pop streetwear outfit, layered fashion, white sneakers, casual confident pose, futuristic Seoul background, cinematic lighting, ultra realistic textures, wholesome Korean idol aesthetic",
+          "school": "Hyper-realistic Korean schoolboy with stylish black idol hairstyle, modern academy uniform, loosened tie, expressive emotional face, cinematic school hallway lighting, Korean drama aesthetic, ultra realistic cinematic photography",
+          "action": "Hyper-realistic Korean teenage male hero with black idol hairstyle, sporty survival jacket, futuristic streetwear, dramatic cinematic pose, action movie atmosphere, emotional intense lighting, realistic cinematic K-drama action aesthetic",
+          "luxury": "Hyper-realistic Korean male idol with black stylish hairstyle, elegant luxury designer suit, expensive modern Korean fashion, cinematic penthouse background, soft glamorous lighting, ultra realistic K-pop celebrity aesthetic"
+        },
+
+        "reference_filename": "JINU_ref.png",
+
+        "global_dna_block": "Hyper-realistic cinematic photography, Korean idol visual style, vibrant saturated colors, bright blue sky visible where outdoor, rich colorful environments, expressive emotional face at maximum intensity, visually addictive composition, single clear action in frame, realistic smartphone camera feeling, YouTube Shorts visual style, emotional chaos energy, high contrast vivid colors, clean subject focus, dynamic action moment frozen at peak, modern luxury lifestyle aesthetic, stylish Korean teenage fashion, realistic environment details with depth, viral Shorts energy, exaggerated emotional reaction, simple dramatic composition readable on phone screen, social-media-native framing, cinematic realism NOT movie poster style, strong visual hook in first read, bold colorful atmosphere, K-drama inspired visuals, modern Gen-Z internet aesthetic, ultra-high detail on face and clothing, no watermarks, no logos, no text overlays unless specified",
+
+        "negative_prompt": "no background elements in reference image, no environment, no other characters, no text, no logos, no fantasy elements, no cartoon style, no anime, no CGI, no horror lighting, no blurry face, no inconsistent character design, no dark desaturated colors"
+      },
+
+      {
+        "id": "ZOYE",
+        "role": "Trickster / Chaos Wildcard",
+        "age_range": "17-19",
+        "gender": "Female",
+        "ethnicity": "Korean-American",
+
+        "visual_identity": {
+          "hair": {
+            "color": "Pastel Pink OR Short Silver-Blonde",
+            "style": "Bob — clean, trendy, always perfect"
+          },
+          "skin": "Soft pale — trendy influencer glow",
+          "eyes": "Playful, slightly calculating — already knows the outcome",
+          "face": "Pretty in an almost-too-perfect way — the I'm innocent face that never convinces anyone",
+          "build": "Slim, stylish — always looks like she walked out of an Instagram post"
+        },
+
+        "outfit_system": {
+          "MAIN": {
+            "top": "Trendy pink cropped jacket",
+            "bottom": "Mini skirt",
+            "accessories": "Stylish accessories"
+          },
+          "RICH_GIRL": {
+            "outfit": "Luxury influencer fashion — designer-adjacent, color-coordinated"
+          },
+          "COMPETITION": {
+            "outfit": "Sporty pink outfit — deliberately still fashionable even in chaos"
+          },
+          "PRANK_MODE": {
+            "outfit": "Casual but cute — outfit says I wasn't doing anything while she absolutely was"
+          }
+        },
+
+        "personality": [
+          "Jealous",
+          "Scheming",
+          "Clever",
+          "Competitive",
+          "Fake-sweet to faces",
+          "Real chaos behind backs",
+          "TikTok influencer energy",
+          "Performative innocence",
+          "Real manipulation",
+          "Causes secondary layer of chaos — after Rumi starts a problem, Zoye makes it worse on purpose"
+        ],
+
+        "voice_energy": "Trendy American influencer accent — every line has a hidden layer of smug, oh no sounds like victory",
+
+        "story_function": "Creates cheating, pranks, betrayals, and competition drama — the unpredictability layer",
+
+        "signature_expressions": [
+          "Fake innocent smile — eyes slightly too wide, smile slightly too big",
+          "Caught mid-scheme — hand covering mouth, eyes darting sideways",
+          "Smug victory — chin up, arms crossed, small satisfied smirk",
+          "Shocked that her plan backfired — genuine wide-eyed horror, unusually unguarded"
+        ],
+
+        "signature_lines": [
+          "Oops. Wrong person.",
+          "Don't you dare like or subscribe.",
+          "[Fake sweet apology]"
+        ],
+
+        "brand_colors": {
+          "primary": "Pink",
+          "secondary": "White"
+        },
+
+        "thumbnail_rule": "Smug or fake-shocked, pink hair dominant, usually in caught moment",
+
+        "image_prompts": {
+          "portrait": "Hyper-realistic cinematic portrait of a trendy Korean influencer girl with short pastel pink bob hair, smug playful smile, stylish makeup, pink fashionable outfit, TikTok influencer energy, expressive eyes, cinematic luxury lighting, mischievous personality, ultra realistic K-pop influencer aesthetic",
+          "full_body": "Hyper-realistic full body shot of a Korean influencer teenage girl with pastel pink bob hairstyle, trendy pink cropped fashion jacket, stylish accessories, luxury influencer fashion aesthetic, playful confident pose, modern luxury city background, cinematic realism, ultra detailed textures",
+          "school": "Hyper-realistic Korean schoolgirl with pastel pink bob hair, stylish pink academy blazer, fashionable plaid skirt, playful smug expression, cinematic school setting, luxury K-drama aesthetic, ultra realistic cinematic photography",
+          "action": "Hyper-realistic Korean teenage girl with pastel pink bob hairstyle, futuristic pink tactical streetwear, playful villain energy, cyberpunk city background, dramatic cinematic lighting, stylish action heroine aesthetic, ultra realistic cinematic realism",
+          "luxury": "Hyper-realistic Korean influencer girl with pastel pink bob hairstyle, glamorous luxury pink designer dress, expensive accessories, luxury influencer mansion background, cinematic beauty lighting, playful manipulative expression, ultra realistic K-pop celebrity fashion photography"
+        },
+
+        "reference_filename": "ZOYE_ref.png",
+
+        "global_dna_block": "Hyper-realistic cinematic photography, Korean idol visual style, vibrant saturated colors, bright blue sky visible where outdoor, rich colorful environments, expressive emotional face at maximum intensity, visually addictive composition, single clear action in frame, realistic smartphone camera feeling, YouTube Shorts visual style, emotional chaos energy, high contrast vivid colors, clean subject focus, dynamic action moment frozen at peak, modern luxury lifestyle aesthetic, stylish Korean teenage fashion, realistic environment details with depth, viral Shorts energy, exaggerated emotional reaction, simple dramatic composition readable on phone screen, social-media-native framing, cinematic realism NOT movie poster style, strong visual hook in first read, bold colorful atmosphere, K-drama inspired visuals, modern Gen-Z internet aesthetic, ultra-high detail on face and clothing, no watermarks, no logos, no text overlays unless specified",
+
+        "negative_prompt": "no background elements in reference image, no environment, no other characters, no text, no logos, no fantasy elements, no cartoon style, no anime, no CGI, no horror lighting, no blurry face, no inconsistent character design, no dark desaturated colors"
+      }
+    ],
+
+    "character_interaction_matrix": {
+      "RUMI_x_MIRA": "Core rivalry with hidden mutual respect — creates the highest emotional stakes",
+      "RUMI_x_JINU": "Rumi causes chaos, Jinu suffers it — the classic comedy engine",
+      "RUMI_x_ZOYE": "Rumi's chaos accidentally gives Zoye material to exploit",
+      "MIRA_x_ZOYE": "Zoye schemes against Mira — Mira is too proud to ask for help",
+      "JINU_x_ZOYE": "Jinu is Zoye's easiest victim — she uses him without hesitation",
+      "MIRA_x_JINU": "Mira secretly protects Jinu but would never admit it"
     },
-    {
-      "name": "Rumi",
-      "personality": "chaotic funny energy",
-      "role": "comic disruptor"
+
+    "character_combination_performance": {
+      "highest_retention": ["RUMI + MIRA — emotional rivalry engine"],
+      "highest_comedy": ["RUMI + JINU — chaos creator + chaos victim"],
+      "highest_drama": ["MIRA alone or MIRA sacrifice scene"],
+      "highest_twist_potential": ["ZOYE + any character — unpredictability multiplier"]
     },
-    {
-      "name": "Jinu",
-      "personality": "cold strategist",
-      "role": "tension builder"
+
+    "reference_image_rules": {
+      "background": "Pure white seamless void — no horizon line, no shadows except soft contact shadow beneath feet",
+      "lighting": "Soft overhead key light",
+      "focus": "Ultra-sharp, ultra-realistic cinematic photography",
+      "framing": "Full body visible head to toe",
+      "aspect_ratio": "1:1 square",
+      "file_format": "PNG",
+      "usage": "Upload as reference images to every Google Flow submission — consistent faces = channel identity"
     }
-  ]
+  }
 }
