@@ -1,14 +1,239 @@
 {
-  "patterns": [
-    {
-      "hook": "instant danger",
-      "emotion": "fear + curiosity",
-      "retention": "unfinished reveal"
+  "viral_patterns": {
+    "source_channels": ["ToonZilla", "Kpopzai", "Daniel Goleman Wisdom"],
+    "analysis_basis": "View counts, transcripts, and engagement data",
+
+    "patterns": [
+
+      {
+        "id": "P001",
+        "name": "Impossible Danger Already Happening",
+        "view_count_evidence": "11M (hero), 11M (christmas), 4.7M (rumi saved everyone)",
+        "hook": "character already inside the dangerous situation — no buildup",
+        "hook_examples": [
+          "Boulder already rolling toward the truck",
+          "Bomb already counting down on the ship",
+          "Character already stuck to bicycle seat"
+        ],
+        "emotion": "shock + fear + instant curiosity",
+        "escalation": "danger gets worse every 3 seconds — never plateaus",
+        "retention": "cliffhanger — threat never fully resolved before cut",
+        "cta_style": "story-threat — she's still in there — cut",
+        "character_combo": "Rumi + Mira",
+        "dialogue_pattern": "STOP. Don't come closer. Go back. Run now.",
+        "dialogue_energy": "panicked, screaming, maximum urgency"
+      },
+
+      {
+        "id": "P002",
+        "name": "Sacrifice Twist",
+        "view_count_evidence": "552K (helicopter), 4.7M (rumi saved everyone)",
+        "hook": "character does something that looks insane or destructive",
+        "hook_examples": [
+          "Rumi jumps out of helicopter",
+          "Mira gives up her oxygen mask",
+          "Character throws themselves in front of danger"
+        ],
+        "emotion": "confusion → shock → emotional overwhelm",
+        "escalation": "the WHY is withheld — audience doesn't understand until emotional peak",
+        "retention": "sacrifice cut — action happens, cut before we see outcome",
+        "cta_style": "like and subscribe to bring character back / save character",
+        "character_combo": "Rumi or Mira solo sacrifice moment",
+        "dialogue_pattern": "She jumped. Why did she do that? I got you. I won't let you go.",
+        "dialogue_energy": "disbelief → desperate → warm resolution then recut to danger"
+      },
+
+      {
+        "id": "P003",
+        "name": "Absurd Object at Impossible Scale",
+        "view_count_evidence": "10M (golden plane), 11M (christmas tree on head), 9.4M (laser eyes)",
+        "hook": "oversized or impossible object visible in frame 1 — readable in 0.5 seconds",
+        "hook_examples": [
+          "Giant glowing Christmas tree growing from someone's head",
+          "Solid gold airplane built overnight",
+          "Laser eyes shooting beams across a city"
+        ],
+        "emotion": "absurd delight + disbelief + need to share",
+        "escalation": "the absurd object gets BIGGER or MORE absurd — never explained away",
+        "retention": "power flip pending — character figures out how to use the absurdity as a weapon, cut before execution",
+        "cta_style": "don't like or subscribe or I'm finished — threat tied to absurd stakes",
+        "character_combo": "Rumi as absurdity creator, Mira as skeptical reactor",
+        "dialogue_pattern": "I can't control my laser eyes. Problem solved. Thanks Rumi.",
+        "dialogue_energy": "casual about the impossible — plays it straight, never winks at camera"
+      },
+
+      {
+        "id": "P004",
+        "name": "Villain Trap Backfire",
+        "view_count_evidence": "7.2M (mira's trap), 8.6M (snow)",
+        "hook": "villain is caught mid-scheme OR trap is already set and victim is approaching",
+        "hook_examples": [
+          "Zoye putting glue on bicycle seat — we see her doing it",
+          "Mira swapping snowboard colors before competition",
+          "Trap door already in position as target walks toward it"
+        ],
+        "emotion": "anticipation + dark comedy + justice hunger",
+        "escalation": "wrong person gets trapped OR trap backfires on creator",
+        "retention": "betrayal tease — scheme isn't fully over, cut on Zoye's face as she realizes",
+        "cta_style": "if the professor finds out it was me I AM FINISHED so don't like or subscribe",
+        "character_combo": "Zoye schemes, Mira or Jinu as victim, Rumi as justice bringer",
+        "dialogue_pattern": "Oops. Wrong person. Geneva is going to kill me.",
+        "dialogue_energy": "smug → panicked → fake innocent"
+      },
+
+      {
+        "id": "P005",
+        "name": "Competition Reversal",
+        "view_count_evidence": "8.6M (snow), 552K (helicopter race segment)",
+        "hook": "underdog is losing badly — score shown on screen, crowd reacting",
+        "hook_examples": [
+          "Roomie's score way too low — crowd groaning",
+          "Rumi on cardboard motorcycle being laughed at",
+          "Character already at back of race as others pull ahead"
+        ],
+        "emotion": "secondhand embarrassment → rising hope → triumphant shock",
+        "escalation": "cheating is exposed mid-competition — reversal feels earned not lucky",
+        "retention": "leave a comment if you want Rumi's revenge — open loop",
+        "cta_style": "don't subscribe so Rumi doesn't find out I swapped the boards",
+        "character_combo": "Rumi vs Mira — Zoye as interference layer",
+        "dialogue_pattern": "Told you it was never about the bike. I said I'd win and I did.",
+        "dialogue_energy": "smug delivery on the win line — never shouts the victory"
+      },
+
+      {
+        "id": "P006",
+        "name": "Chaotic Victim Loop",
+        "view_count_evidence": "Multiple 500K-700K performers on Daniel Goleman channel — Jinu focus",
+        "hook": "Jinu is already suffering something he didn't cause — visible pain or confusion in frame 1",
+        "hook_examples": [
+          "Jinu wakes up to ocean flooding the cabin",
+          "Jinu handed empty chip bag as a gift",
+          "Jinu stuck as the only one left without a lifeboat"
+        ],
+        "emotion": "relatable suffering + comedy + audience proxy feeling",
+        "escalation": "every attempt to fix the situation makes it worse — Jinu is the straight man in chaos",
+        "retention": "please like and subscribe to bring Jinu back — victim CTA",
+        "cta_style": "please like and subscribe to bring Jinu back",
+        "character_combo": "Jinu alone or Jinu + Rumi chaos source",
+        "dialogue_pattern": "What's happening? I can't. I physically cannot.",
+        "dialogue_energy": "soft disbelief → resigned suffering → one explosive reaction"
+      },
+
+      {
+        "id": "P007",
+        "name": "Hidden Loyalty Reveal",
+        "view_count_evidence": "2.1M (Why Did Rumi Do This), 1.6M (birthday), 8.7M (why are they treating Rumi this way)",
+        "hook": "character is being mistreated or excluded — audience immediately feels injustice",
+        "hook_examples": [
+          "Rumi being pushed off stage and excluded",
+          "Rumi building her own stage alone",
+          "Character doing something secretly generous that others mock"
+        ],
+        "emotion": "injustice anger → hope → emotional payoff when truth revealed",
+        "escalation": "humiliation deepens before the truth comes — never resolves too early",
+        "retention": "hidden truth — final line reveals what the character was actually doing, cut",
+        "cta_style": "they have a heart of gold — please give them a like and subscribe",
+        "character_combo": "Rumi as misunderstood hero, Mira + Zoye as antagonists who later feel guilt",
+        "dialogue_pattern": "Why didn't you tell us? We want to help too. Yes, together.",
+        "dialogue_energy": "quietly emotional — no shouting on the reveal — voice breaks slightly"
+      },
+
+      {
+        "id": "P008",
+        "name": "Roast Battle With Real Stakes",
+        "view_count_evidence": "Daniel Goleman channel roast video — full long-form engagement",
+        "hook": "character delivers devastating opening burn — target's face visible reacting immediately",
+        "hook_examples": [
+          "Baby opens roast tour with target already in seat",
+          "First line lands before target can defend",
+          "Audience reaction shot before victim can speak"
+        ],
+        "emotion": "chaotic joy + secondhand embarrassment + loyalty to funniest character",
+        "escalation": "each target leaves — room empties — stakes shift to who is truly last standing",
+        "retention": "final reveal — last person standing delivers line that reframes the whole roast",
+        "cta_style": "none — engagement comes from comment wars about who won",
+        "character_combo": "Full cast — Baby as host, Mira as most devastating target, Jinu as funniest victim",
+        "dialogue_pattern": "Never said dumbbells could talk. Yet here you are.",
+        "dialogue_energy": "deadpan delivery — never breaks — precision over volume"
+      },
+
+      {
+        "id": "P009",
+        "name": "Vlog Chaos Escalation",
+        "view_count_evidence": "90K (banned slide), 9.2K (vlog format), long-form Kpopzai vlogs 2M+",
+        "hook": "vlog opener immediately shows something wrong — fire, flooding, or absurd situation",
+        "hook_examples": [
+          "Kitchen already on fire during cooking segment",
+          "House already burned down — group now in forest",
+          "Ship already sinking while Jinu calmly vlogs"
+        ],
+        "emotion": "chaos comedy + documentary authenticity + parasocial familiarity",
+        "escalation": "each vlog segment ends worse than it started — no scene is safe",
+        "retention": "new location cliffhanger — just when survival seems possible, new disaster announced",
+        "cta_style": "like and subscribe embedded as vlog comment to fans — character breaks fourth wall naturally",
+        "character_combo": "Jinu as host, full cast as chaos sources",
+        "dialogue_pattern": "Don't worry. That's just my special effect. Totally safe. I think.",
+        "dialogue_energy": "deadpan narrator voice — calm about insane things — contrast IS the comedy"
+      },
+
+      {
+        "id": "P010",
+        "name": "Power Flip From Zero",
+        "view_count_evidence": "8.7M (why are they treating Rumi this way — Kpopzai), 2.6M (shorts #kpop)",
+        "hook": "character is at absolute lowest point — humiliated, excluded, or powerless in frame 1",
+        "hook_examples": [
+          "Rumi dragged off stage in front of crowd",
+          "Character told they are worthless at the thing they love",
+          "Underdog about to lose in front of everyone"
+        ],
+        "emotion": "anger + protectiveness + desperate hope for reversal",
+        "escalation": "character builds power from nothing — using the exact thing used against them",
+        "retention": "power flip pending — we see the moment the character realizes they can win, cut before execution",
+        "cta_style": "drop a heart for Rumi — comment-bait tied to emotional investment",
+        "character_combo": "Rumi as zero-to-hero, Mira as witness who is secretly proud",
+        "dialogue_pattern": "I'll make my own stage. Help me. Don't you dare like it. She's a loser.",
+        "dialogue_energy": "villain sneers at normal volume — hero's power move delivered quietly"
+      }
+    ],
+
+    "top_performing_combinations": {
+      "highest_views": [
+        { "pattern": "Absurd Object at Impossible Scale", "avg_views": "10.1M", "channels": ["ToonZilla"] },
+        { "pattern": "Villain Trap Backfire", "avg_views": "7.9M", "channels": ["ToonZilla"] },
+        { "pattern": "Power Flip From Zero", "avg_views": "5.65M", "channels": ["Kpopzai"] }
+      ],
+      "highest_comments": [
+        { "pattern": "Competition Reversal", "reason": "revenge CTA generates part 2 demand" },
+        { "pattern": "Roast Battle With Real Stakes", "reason": "comment wars about who won" },
+        { "pattern": "Hidden Loyalty Reveal", "reason": "emotional investment drives shares" }
+      ],
+      "highest_retention": [
+        { "pattern": "Impossible Danger Already Happening", "reason": "no buildup — viewer already mid-action" },
+        { "pattern": "Sacrifice Twist", "reason": "WHY withheld until emotional peak — can't leave" },
+        { "pattern": "Vlog Chaos Escalation", "reason": "documentary format creates binge loop" }
+      ]
     },
-    {
-      "hook": "sudden twist",
-      "emotion": "shock",
-      "retention": "cliffhanger"
-    }
-  ]
+
+    "banned_patterns": [
+      "Clean resolution — never used in top performers",
+      "Buildup before the hook — top videos start mid-action",
+      "Standalone subscribe prompt — always story-integrated",
+      "Plateau escalation — every beat must be more intense",
+      "Complex dialogue over 8 words per line",
+      "Multiple actions in one clip — AI fails on this"
+    ],
+
+    "undersaturated_opportunities": [
+      "Futuristic tech going catastrophically wrong",
+      "Luxury wealth situation with absurd outcome",
+      "International location outside Korea and school",
+      "AI or robot character causing chaos",
+      "Body-swap or identity confusion",
+      "Giant food at competition or event",
+      "Supernatural ability that only works at wrong moment",
+      "Secret identity accidentally revealed",
+      "Rival from different country",
+      "Competition format not yet used on these channels"
+    ]
+  }
 }
